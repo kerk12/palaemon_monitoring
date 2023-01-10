@@ -7,7 +7,7 @@ services:
     volumes:
       - ./config_prometheus/:/etc/prometheus
     ports:
-      - 9090:9090
+      - 1090:9090
 
   alertmanager:
     image: prom/alertmanager
